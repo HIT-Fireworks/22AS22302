@@ -1,0 +1,12 @@
+name: Sync managed repository
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    uses: HIT-Fireworks/fireworks-repos-management-v2/.github/workflows/reusable-repository-sync.yml@main
+    permissions:
+      contents: read

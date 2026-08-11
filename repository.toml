@@ -1,0 +1,4 @@
+schema_version = 2
+registry = "https://github.com/HIT-Fireworks/fireworks-course-registry-v2"
+repo_id_source = "github.repository"
+repo_type_source = "registry"
